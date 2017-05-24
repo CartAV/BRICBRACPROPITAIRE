@@ -1,0 +1,24 @@
+{
+  "connection": "postgis",
+  "name": "Postgis Bric -à-brac",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1495629421757
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1495629421757
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
