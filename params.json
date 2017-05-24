@@ -1,15 +1,7 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": [
-      {
-        "objectRef": {
-          "objectId": "Liste_communes_police_prepared",
-          "objectType": "DATASET"
-        },
-        "modes": []
-      }
-    ]
+    "authorizations": []
   },
   "exposedObjects": {
     "objects": [
@@ -70,11 +62,11 @@
   "name": "Bric-à-brac propiétaire",
   "projectStatus": "Sandbox",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495632326032
+    "lastModifiedOn": 1495632380464
   },
   "creationTag": {
     "versionNumber": 0,
