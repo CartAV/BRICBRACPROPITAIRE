@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "cwm006e849k": [
+      {
+        "mode": "SQL",
+        "id": "teaUt41C083A",
+        "runOn": 1495629471439,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "FJ0R4gfoB29kgZln",
+        "hash": "1495a8e5ca94d943385e3c52e8d4c730",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(the_geom);",
+        "expandedSql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(the_geom);"
+      }
+    ]
+  }
+}
