@@ -1,14 +1,28 @@
 {
   "connection": "postgis",
   "name": "Postgis Bric -à-brac",
-  "cells": [],
+  "cells": [
+    {
+      "id": "cwm006e849k",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495629421757
+    "lastModifiedOn": 1495629425018
   },
   "creationTag": {
     "versionNumber": 0,
