@@ -88,6 +88,28 @@
         },
         "sql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(the_geom);",
         "expandedSql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(the_geom);"
+      },
+      {
+        "mode": "SQL",
+        "id": "ksKwyPo6DANS",
+        "runOn": 1495629663098,
+        "runIn": 130,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "lPVdnUcVq9AJSRK7",
+        "hash": "2763472fbc4579aebf621b7470ca538b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(geom);",
+        "expandedSql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(geom);"
       }
     ]
   }
