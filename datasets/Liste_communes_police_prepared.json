@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495626335912
+    "lastModifiedOn": 1495626370643
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,7 +59,7 @@
       },
       {
         "name": "n°_commune_insee_court",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
