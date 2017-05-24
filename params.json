@@ -1,10 +1,33 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "circonscriptions_dcsp",
+          "objectType": "DATASET"
+        },
+        "modes": []
+      }
+    ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "circonscriptions_dcsp",
+        "rules": [
+          {
+            "targetProject": "ACCIDENTS",
+            "appearOnFlow": true
+          },
+          {
+            "targetProject": "VERBALISATIONLECTRONIQUEPARTAGE",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "owner": "grabenertr",
@@ -46,6 +69,13 @@
   },
   "name": "Bric-à-brac propiétaire",
   "projectStatus": "Sandbox",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1495629775739
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
