@@ -1,10 +1,33 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "Liste_communes_police_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": []
+      }
+    ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "Liste_communes_police_prepared",
+        "rules": [
+          {
+            "targetProject": "ACCIDENTS",
+            "appearOnFlow": true
+          },
+          {
+            "targetProject": "VERBALISATIONLECTRONIQUEPARTAGE",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "owner": "grabenertr",
@@ -47,11 +70,11 @@
   "name": "Bric-à-brac propiétaire",
   "projectStatus": "Sandbox",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495631912970
+    "lastModifiedOn": 1495632326032
   },
   "creationTag": {
     "versionNumber": 0,
