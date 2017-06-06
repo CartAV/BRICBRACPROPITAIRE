@@ -31,7 +31,22 @@
   },
   "projectType": "REGULAR",
   "owner": "grabenertr",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "eig",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -70,11 +85,11 @@
   "name": "Bric-à-brac propiétaire",
   "projectStatus": "Sandbox",
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495632525879
+    "lastModifiedOn": 1496759207455
   },
   "creationTag": {
     "versionNumber": 0,
