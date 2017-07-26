@@ -111,6 +111,30 @@
         "sql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(geom);",
         "expandedSql": "ALTER TABLE \"circonscriptions_dcsp\"\n\tALTER COLUMN geom type geography(MultiPolygon)\n\tUSING geom::geography(MultiPolygon);\n\nCREATE INDEX circo_geom_idx ON \"circonscriptions_dcsp\"\n    USING gist(geom);"
       }
+    ],
+    "yp9u631bg7": [
+      {
+        "mode": "SQL",
+        "id": "6UNAnRggwyVC",
+        "runOn": 1501074429045,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "cxbbdgj3ict2mBlT",
+        "hash": "2fafa1948897ed2b525f84144502fea5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "CREATE INDEX communes_police_insee_idx on liste_communes_police_prepared(\"n°_commune_insee_long\");",
+        "expandedSql": "CREATE INDEX communes_police_insee_idx on liste_communes_police_prepared(\"n°_commune_insee_long\");"
+      }
     ]
   }
 }
