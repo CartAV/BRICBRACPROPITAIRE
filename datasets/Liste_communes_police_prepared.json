@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495626370643
+    "lastModifiedOn": 1501074414860
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,6 +43,7 @@
     "normalizeDoubles": true,
     "table": "liste_communes_police_prepared",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "CREATE INDEX communes_police_insee_idx on liste_communes_police_prepared(\"n°_commune_insee_long\");",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
