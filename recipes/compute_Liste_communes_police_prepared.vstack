@@ -43,11 +43,11 @@
     },
     "lowerCaseSchemaIfEngineRequiresIt": true
   },
+  "originColumnName": "original_dataset",
   "postFilter": {
     "enabled": false,
     "distinct": false
   },
-  "originColumnName": "original_dataset",
   "selectedColumns": [
     "n°_departement_mineral",
     "n°_commune_insee_court",
