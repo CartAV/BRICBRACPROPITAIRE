@@ -121,7 +121,7 @@
     "cluster": {
       "clusterMode": "INHERIT"
     },
-    "path": "/"
+    "path": "/SecuriteInterieure"
   },
   "name": "Circonscriptions police",
   "projectStatus": "Sandbox",
@@ -176,11 +176,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1533462648097
+    "lastModifiedOn": 1533466424991
   },
   "creationTag": {
     "versionNumber": 0,
