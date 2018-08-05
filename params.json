@@ -70,6 +70,10 @@
       "shakerMemTableBytes": {
         "soft": -1,
         "hard": -1
+      },
+      "attachmentBytes": {
+        "soft": -1,
+        "hard": -1
       }
     },
     "relocationSettings": {
@@ -80,16 +84,103 @@
       "enginesPreferenceOrder": [],
       "forbiddenByRecipeType": {},
       "preferenceByRecipeType": {}
+    },
+    "codeEnvs": {
+      "python": {
+        "useBuiltinEnv": true,
+        "preventOverride": false
+      },
+      "r": {
+        "useBuiltinEnv": true,
+        "preventOverride": false
+      }
+    },
+    "container": {
+      "containerMode": "NONE"
+    },
+    "datasetsCreationSettings": {
+      "useGlobal": true,
+      "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+      "virtualizable": false,
+      "allowUploadsWithoutConnection": true
+    },
+    "hiveEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sparkEngineCreationSettings": {
+      "useGlobal": true
+    },
+    "impalaEngineCreationSettings": {
+      "useGlobal": true,
+      "streamMode": true
+    },
+    "wikiSettings": {
+      "promoted": false
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
+    },
+    "path": "/"
+  },
+  "name": "Circonscriptions police",
+  "projectStatus": "Sandbox",
+  "metrics": {
+    "probes": [],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": []
     }
   },
-  "name": "Bric-à-brac propiétaire",
-  "projectStatus": "Sandbox",
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1496759207455
+    "lastModifiedOn": 1533462648097
   },
   "creationTag": {
     "versionNumber": 0,
